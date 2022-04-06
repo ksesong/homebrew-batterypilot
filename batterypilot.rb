@@ -15,7 +15,6 @@ class Batterypilot < Formula
 
   service do
     run opt_bin/"batterypilot"
-    environment_variables SMC_PATH: opt_libexec/"smc"
   end
 
   test do
