@@ -1,8 +1,8 @@
 class Batterypilot < Formula
   desc "Script that enables/disables MacBook's battery charging around a target value."
   homepage "https://github.com/ksesong/batterypilot"
-  url "https://github.com/ksesong/batterypilot/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "d9b23ed8f67048286ecd529c1b9b9b89e4bf97db48b5c6f5657ab29aef882721"
+  url "https://github.com/ksesong/batterypilot/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "e02f260b0f1ce3fc468332fe9f9daddbedad313943fb92f6d34b4151f5d01868"
 
   depends_on "rust" => :build
 
